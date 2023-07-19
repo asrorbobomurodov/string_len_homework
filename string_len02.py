@@ -6,4 +6,6 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    return len(a)%2==0
+print(main("Python"))
+print(main("codeacademy"))
