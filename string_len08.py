@@ -8,4 +8,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    if len(s)%2==1:
+        return f'{s[len(s)//2]}'
+    return f'{s[len(s)//2-1] + s[len(s)//2]}'
+print(main("Asror"))
+print(main("cool"))
